@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "input_documents": [
+      "cardio_risk_prediction.pdf",
+      "deep_learning_medical_diagnosis.pdf",
+      "research paper 1.pdf"
+    ],
+    "persona": "PhD Researcher in Medical Machine Learning",
+    "job_to_be_done": "Write a literature review on the use of machine learning and deep learning techniques in cardiovascular disease diagnosis and prediction, including model comparisons and clinical applications.",
+    "processing_timestamp": "2025-07-28T22:41:36.591115"
+  },
+  "extracted_sections": [
+    {
+      "document": "cardio_risk_prediction.pdf",
+      "page": 1,
+      "section_title": "Title: Machine Learning Applications in Cardiovascular Risk Prediction",
+      "importance_rank": 1
+    },
+    {
+      "document": "deep_learning_medical_diagnosis.pdf",
+      "page": 1,
+      "section_title": "Title: Deep Learning for Medical Diagnosis: Challenges and Opportunities",
+      "importance_rank": 2
+    },
+    {
+      "document": "research paper 1.pdf",
+      "page": 4,
+      "section_title": "The findings confirm that:",
+      "importance_rank": 3
+    },
+    {
+      "document": "research paper 1.pdf",
+      "page": 1,
+      "section_title": "\u201cHeart Failure Prediction with Machine Learning: A Comparative",
+      "importance_rank": 4
+    },
+    {
+      "document": "research paper 1.pdf",
+      "page": 2,
+      "section_title": "Limited attention to",
+      "importance_rank": 5
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "cardio_risk_prediction.pdf",
+      "page": 1,
+      "refined_text": "Title: Machine Learning Applications in Cardiovascular Risk Prediction Abstract: This paper presents a study on the application of various machine learning algorithms in predicting card Conclusion: Gradient boosting outperformed other models with an AUC of 0.91. Future work will include deep learni"
+    },
+    {
+      "document": "deep_learning_medical_diagnosis.pdf",
+      "page": 1,
+      "refined_text": "Title: Deep Learning for Medical Diagnosis: Challenges and Opportunities Abstract: We explore how deep learning is transforming medical diagnosis with a focus on chronic conditions like Conclusion: While deep learning shows great promise in automating diagnosis, issues with interpretability, data bias"
+    },
+    {
+      "document": "research paper 1.pdf",
+      "page": 4,
+      "refined_text": "\uf0b7  The combination of Z-score normalization and SMOTE provided the most significant performance improvements across models. \uf0b7  Ensemble learning methods (Random Forest, Gradient Boosting, Extra Trees) are superior in handling complex patterns and producing robust results. The findings confirm that: \uf0b7  Data preprocessing significantly impacts model performance."
+    },
+    {
+      "document": "research paper 1.pdf",
+      "page": 1,
+      "refined_text": "The study specifically aims to address two major concerns in clinical datasets: class imbalance and feature scaling , which can significantly affect model performance. \uf0b7  Use of small, balanced datasets that do not represent real-world scenarios. The key contributions include: \uf0b7  Comparison of 18 ML algorithms on a heart failure dataset."
+    },
+    {
+      "document": "research paper 1.pdf",
+      "page": 2,
+      "refined_text": "Dataset The study uses the Cleveland Heart Disease dataset from the UCI Machine Learning Repository. A key characteristic of the dataset is its class imbalance \u2014 a common issue in medical datasets \u2014 where fewer patients are labeled as having heart disease. \uf0b7  Limited attention to scaling techniques , despite their influence on algorithm performance."
+    }
+  ]
+}
